@@ -1,38 +1,55 @@
+.container{
+  height: 100vh;
+  background-color: cadetblue;
+}
+
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  height: auto;
+  padding: 40px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 1%;
+}
+.button, .social-button{
+  padding: 8px 15px;
+  border-radius: 5%;
+  border: 1px solid grey;
+  font-size: medium;
+  background-color: cadetblue;
+  color: #fff;
+}
+.social-button{
+  margin-right: 5px;
+}
+#tumblr{
+  padding: 8px 18px;
+}
+#main-button{
+  margin-left: auto;
+}
+button:focus{
+  outline-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quote{
+  font-size: xx-large;
+  color: cadetblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.move{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.author{
+  font-size: large;
+  font-family: 'Lucida Grande';
+  color: cadetblue;
+  text-align: end; 
 }
